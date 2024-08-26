@@ -1,0 +1,44 @@
+.input-box {
+    width: 290px;
+    padding: 10px;
+    border-radius: 10px; 
+    margin-right: 10px;
+  }
+
+  .circular-button {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .circular-button:hover {
+    background-color: darkblue;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center; /* Center the text-box horizontally in the container */
+    align-items: center; /* Center the text-box vertically in the container */
+    height:  8vh; /* Set the height of the parent container */
+  }
+  
+  .text-box {
+    display: flex;
+    justify-content: space-between; /* Distribute space between text and icon */
+    align-items: center; /* Center text and icon vertically */
+    width: 350px; /* Set the width of the text-box */
+    height: 20px; /* Set the height of the text-box */
+    background-color: grey; /* Set the background color of the text-box */
+    color: white; /* Set the text color */
+    padding: 10px; /* Add padding inside the text-box */
+    border-radius: 5px; /* Slightly round the edges */
+  }
+  
+  
